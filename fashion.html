@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuthan shopping</title>
+    <link rel="stylesheet" href="./fashion.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <input type="search" class="dolo" placeholder="search">
+        <div class="logo"><h1>My shopping</h1></div>
+        <ul class="menu">
+            <li><a href="/shop1.html" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="/fashion.html">Fashion</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+
+        <!-- for responsive button  -->
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+
+
+    <h1 class="pheading">Our Latest Products</h1>
+
+    <section class="sec">
+        <div class="products">
+            
+            <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/girl.jpg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Girl dress</div>
+                <div class="box">
+                    <div class="price">₹8,999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/girls.jpg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Party wear</div>
+                <div class="box">
+                    <div class="price">₹5,565</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/partydress.jpg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Party wear</div>
+                <div class="box">
+                    <div class="price">₹3,569</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/saree.jpg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Saree</div>
+                <div class="box">
+                    <div class="price">₹4,999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/boyparty.jpeg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Party Wear</div>
+                <div class="box">
+                    <div class="price">₹12,000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/shirt.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Woodie</div>
+                <div class="box">
+                    <div class="price">₹850</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/shirt2.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Shirt</div>
+                <div class="box">
+                    <div class="price">₹650</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images2/shirt3.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Pack of 5</div>
+                <div class="box">
+                    <div class="price">₹999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights @ <a href="#">Ajay 2023</a></p>
+    </footer>
+
+    <!-- jquery -->
+    <script>
+        $(".menu-btn").click(function(){
+            $(".navbar .menu").toggleClass("active");
+            $(".navbar-btn i").toggleClass("active");
+        });
+    </script>
+
+</body>
+</html>

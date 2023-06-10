@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay shopping</title>
+    <link rel="stylesheet" href="/shop1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <input type="search" class="dolo" placeholder="search">
+        <div class="logo"><h1>My shopping</h1></div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="/fashion.html">Fashion</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+
+        <!-- for responsive button  -->
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>New Arrivals for men and women</h1>
+        <p>Get the Best women Fashion Arrivals</p>
+        <button>Shop now</button>
+    </section>
+
+    <h1 class="pheading">Our Latest Products</h1>
+
+    <section class="sec">
+        <div class="products">
+            
+            <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/girlsliper2.jpg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Lady sandals</div>
+                <div class="box">
+                    <div class="price">₹550</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/slipper.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Men sandals</div>
+                <div class="box">
+                    <div class="price">₹280</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/shoe.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Sparx Sneakers</div>
+                <div class="box">
+                    <div class="price">₹999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/shoe.webp" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Veno Shoes</div>
+                <div class="box">
+                    <div class="price">₹555</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/shoe2.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Nike</div>
+                <div class="box">
+                    <div class="price">₹2,999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/analogwatch.jpg" alt=""></div>
+                <div class="desc">Boys</div>
+                <div class="title">Analog watch</div>
+                <div class="box">
+                    <div class="price">₹850</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/watch.jpg" alt=""></div>
+                <div class="desc">Men & Women</div>
+                <div class="title">Smart Watch</div>
+                <div class="box">
+                    <div class="price">₹6,999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+             <!-- card starts -->
+            <div class="card">
+                <div class="img"><img src="/images/nothinphone.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Nothing Phone-2</div>
+                <div class="box">
+                    <div class="price">₹29,999</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+             <!-- card end -->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights @ <a href="#">Ajay 2023</a></p>
+    </footer>
+
+    <!-- jquery -->
+    <script>
+        $(".menu-btn").click(function(){
+            $(".navbar .menu").toggleClass("active");
+            $(".navbar-btn i").toggleClass("active");
+        });
+    </script>
+
+</body>
+</html>
